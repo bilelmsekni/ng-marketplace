@@ -1,0 +1,114 @@
+[
+    {
+        "id": 1,
+        "categoryId": 1,
+        "name": "Mouse",
+        "description": "awesome mouse",
+        "price": 16,
+        "imgSrc": "assets/images/mouse.jpg"
+    },
+    {
+        "id": 2,
+        "categoryId": 1,
+        "name": "Keyboard",
+        "description": "confortable keyboard",
+        "price": 30,
+        "imgSrc": "assets/images/keyboard.jpg"
+    },
+    {
+        "id": 3,
+        "categoryId": 1,
+        "name": "Screen",
+        "description": "neat and wide",
+        "price": 100,
+        "imgSrc": "assets/images/screen.jpg"
+    },
+    {
+        "id": 4,
+        "categoryId": 1,
+        "name": "USB key",
+        "description": "useful key",
+        "price": 10,
+        "imgSrc": "assets/images/usb_key.jpg"
+    },
+    {
+        "id": 5,
+        "categoryId": 1,
+        "name": "Cleaning kit",
+        "description": "because you never know",
+        "price": 5,
+        "imgSrc": "assets/images/clean_kit.jpg"
+    },
+    {
+        "id": 6,
+        "categoryId": 1,
+        "name": "Printer",
+        "description": "good deal",
+        "price": 75,
+        "imgSrc": "assets/images/printer.jpg"
+    },
+    {
+        "id": 1,
+        "categoryId": 2,
+        "name": "Purse",
+        "description": "elegant purse",
+        "price": 50,
+        "imgSrc": "assets/images/purse.jpg"
+    },
+    {
+        "id": 2,
+        "categoryId": 2,
+        "name": "dress",
+        "description": "beautiful dress",
+        "price": 180,
+        "imgSrc": "assets/images/dress.jpg"
+    },
+    {
+        "id": 3,
+        "categoryId": 2,
+        "name": "shoes",
+        "description": "stylish shoes",
+        "price": 100,
+        "imgSrc": "assets/images/shoes.jpg"
+    },
+    {
+        "id": 2,
+        "categoryId": 3,
+        "name": "jante",
+        "description": "jante alu",
+        "price": 130,
+        "imgSrc": "assets/images/jante.jpg"
+    },
+    {
+        "id": 3,
+        "categoryId": 3,
+        "name": "baby seat",
+        "description": "safety first",
+        "price": 125,
+        "imgSrc": "assets/images/babyseat.jpg"
+    },
+    {
+        "id": 1,
+        "categoryId": 4,
+        "name": "roomba",
+        "description": "cleaning for you",
+        "price": 99,
+        "imgSrc": "assets/images/roomba.jpg"
+    },
+    {
+        "id": 2,
+        "categoryId": 4,
+        "name": "homecinema",
+        "description": "fun for all the family",
+        "price": 149,
+        "imgSrc": "assets/images/homecinema.jpg"
+    },
+    {
+        "id": 1,
+        "categoryId": 5,
+        "name": "l'etranger",
+        "description": "for ever trust in who we are and nothing else matters",
+        "price": 9,
+        "imgSrc": "assets/images/etranger.jpg"
+    }
+]
