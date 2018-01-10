@@ -1,0 +1,7 @@
+<div [formGroup]='textBoxGroup' [class]='formGroupClass'>
+    <label>{{dynParams.label}}</label>
+    <input formControlName='textBoxControl' type="text" class="form-control" [placeholder]='dynParams.placeHolder' aria-describedby="errorBlock">
+    <span id="errorBlock" class="help-block" *ngFor='let error of getErrors()'>
+        {{error}}
+    </span>
+</div>

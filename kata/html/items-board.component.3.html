@@ -1,0 +1,38 @@
+<div [formGroup]="purchaseForm">
+    <div class="row">
+        <div *ngFor='let category of categories | async' class="col-md-2">
+            <div class="btn btn-default btn-lg">
+                <label class="radio-inline">
+                <input formControlName="categoryId" type="radio" [value]="category.id"> <i [class]="category.iconClass"></i>
+            </label>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <label>Select item</label>
+            <select formControlName="itemId" class="form-control">
+            <option>Choisissez ..</option>
+            <option *ngFor='let i of categoryItems' [value]='i.id'>{{i.name}}</option>
+        </select>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+        <div class="col-md-3 form-group">
+            <div class="row">
+                <label>Description:</label>
+                <p></p>
+            </div>
+            <div class="row">
+                <label>Price:</label>
+                <p> </p>
+            </div>                        
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <img src='' height="200" width="200" class="center-block" />
+            </div>
+        </div>        
+    </div>
+</div>
